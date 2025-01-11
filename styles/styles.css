@@ -1,266 +1,165 @@
-/* .fira-sans-thin {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .fira-sans-extralight {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .fira-sans-light {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: normal;
-  } 
-  
-  .fira-sans-regular {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  /.fira-sans-medium {
-    fnt-foamily: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .fira-sans-semibold {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .fira-sans-bold {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .fira-sans-extrabold {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .fira-sans-black {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .fira-sans-thin-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .fira-sans-extralight-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .fira-sans-light-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .fira-sans-regular-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .fira-sans-medium-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .fira-sans-semibold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .fira-sans-bold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .fira-sans-extrabold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .fira-sans-black-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: italic;
-  }  */
-  
-
-body{
-    background-color: #F1F1F3;
-    margin-left: 160px;
-    margin-right: 160px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+body {
+  background-color: #F1F1F3;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 /* banner styles */
-.banner{
-    display: flex;
-    justify-content: space-between;
-    background-color: #C6E4D6;
-    border-radius: 24px;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #C6E4D6;
+  border-radius: 24px;
 }
-.banner-greetings{
-    color: rgba(14, 14, 14, 0.5);
-    font-size: 24px;
-    font-weight: 500;
-    font-family: "Fira Sans", serif;
+
+.banner-greetings {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Fira Sans", serif;
 }
-.banner-title{
-    color: #0E0E0E;
-    font-size: 56px;
-    font-weight: bold;
-    font-family: "Fira Sans", serif;
+
+.banner-title {
+  color: #0E0E0E;
+  font-size: 56px;
+  font-weight: bold;
+  font-family: "Fira Sans", serif;
 }
-.banner-btn{
-    padding: 17px 34px;
-    background-color: #006A50;
-    border-radius: 8px;
-    border: none;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Fira Sans", serif;
-     
+
+.banner-btn {
+  padding: 17px 34px;
+  background-color: #006A50;
+  border-radius: 8px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Fira Sans", serif;
+
 }
-.banner-img{
-    width: 474.03px;
-    height: 400px;
-    padding-right: 60px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+
+.banner-img {
+  width: 474.03px;
+  height: 400px;
+  padding-right: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
-.banner-content{
-    max-width: 622px;
-    max-height: 326px;
-    padding-left: 60px;
-    padding-top: 117px;
-    padding-bottom: 117px;
+
+.banner-content {
+  max-width: 622px;
+  max-height: 326px;
+  padding-left: 60px;
+  padding-top: 117px;
+  padding-bottom: 117px;
 }
 
 /* shared styles */
-.sec-title{
+.sec-title {
   font-size: 40px;
   font-weight: bold;
   color: #0E0E0E;
   font-family: "Fira Sans", serif;
 }
-.sec-description{
+
+.sec-description {
   font-size: 16px;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.7);
   font-family: "Fira Sans", serif;
 }
-.main-icon{
+
+.main-icon {
   width: 64px;
   height: 64px;
 }
-.h4-title{
-   font-size: 20px;
-   font-weight: bold;
-   font-family: "Fira Sans", serif;
+
+.h4-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Fira Sans", serif;
 }
-  
-.sec{
+
+.sec {
   display: flex;
   gap: 24px;
   margin-top: 32px;
 }
+
 /* news part  */
-.news-items{
+.news-items {
   display: flex;
   background-color: #fff;
   gap: 32px;
   border-radius: 24px;
-  padding: 48px; 
-} 
-.news-items-2{
+  padding: 48px;
+}
+
+.news-items-2 {
   display: flex;
   background-color: #fff;
   gap: 32px;
   border-radius: 24px;
-  padding: 48px; 
+  padding: 48px;
   margin-top: 24px;
 }
 
-.img{
-  
+.img {
+
   border-radius: 24px;
-  }
-
-  .news-title{
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 32px;
-    font-weight: bold;
-    font-family: "Fira Sans", serif;
-  
-  }
-  .div-gap{
-    display: flex;
-    gap: 12px;
-    color: rgba(14, 14, 14, 0.7);
-    font-family: "Fira Sans", serif;
-  }
-  .btn-color{
-    background-color: rgba(0, 106, 80, 1);
-    border: none;
-    padding: 11px 20px 11px 20px;
-    border-radius: 8px;
-    font-weight: 600;
-    color: white;
-    
-    
-  }
-  /* .news-content{
-    
-  } */
-
-/* section sec */
-.sec-skills{
-  
 }
-.div1{
+
+.news-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Fira Sans", serif;
+
+}
+
+.div-gap {
+  display: flex;
+  gap: 12px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+}
+
+.btn-color {
+  background-color: rgba(0, 106, 80, 1);
+  border: none;
+  padding: 11px 20px 11px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
+
+
+}
+
+.div1 {
   background-color: rgba(84, 144, 245, 0.2);
-  padding: 32px 32px 32px 32px ;
+  padding: 32px 32px 32px 32px;
   border-radius: 16px;
   text-align: left;
 
 }
-.div2{
+
+.div2 {
   background-color: rgba(198, 228, 214, 1);
-  padding: 32px 32px 32px 32px ;
+  padding: 32px 32px 32px 32px;
   border-radius: 16px;
   text-align: left;
 }
-.div3{
+
+.div3 {
   background-color: rgba(247, 235, 207, 1);
-  padding: 32px 32px 32px 32px ;
+  padding: 32px 32px 32px 32px;
   border-radius: 16px;
   text-align: left;
 }
-.btn1{
+
+.btn1 {
   background-color: rgba(84, 144, 245, 1);
   border: none;
   padding: 11px 20px 11px 20px;
@@ -268,7 +167,8 @@ body{
   font-weight: 600;
   color: white;
 }
-.btn2{
+
+.btn2 {
   background-color: rgba(9, 161, 92, 1);
   border: none;
   padding: 11px 20px 11px 20px;
@@ -276,7 +176,8 @@ body{
   font-weight: 600;
   color: white;
 }
-.btn3{
+
+.btn3 {
   background-color: rgba(255, 194, 57, 1);
   border: none;
   padding: 11px 20px 11px 20px;
@@ -286,31 +187,37 @@ body{
 }
 
 /* donate styles  */
-.donate-sec{
+.donate-sec {
   padding-left: 88px;
   padding-right: 88px;
   font-family: "Fira Sans", serif;
+  justify-content: center;
 }
-.donate{
+
+.donate {
   text-align: center;
-  
+
 }
-.donate-p{
+
+.donate-p {
   color: rgba(14, 14, 14, 0.7);
 }
- .btn-a{
+
+.btn-a {
   background-color: #fff;
-  padding: 40px; 
+  padding: 40px;
   border-radius: 16px;
   border: none;
   color: rgba(14, 14, 14, 0.8);
   font-size: 40px;
   font-weight: bold;
- }
- .btn-a:hover{
-  background-color:rgba(198, 228, 214, 1)
- }
- .btn-b{
+}
+
+.btn-a:hover {
+  background-color: rgba(198, 228, 214, 1)
+}
+
+.btn-b {
   background-color: rgba(198, 228, 214, 1);
   padding: 40px;
   border-radius: 16px;
@@ -318,32 +225,70 @@ body{
   color: rgba(14, 14, 14, 0.8);
   font-size: 40px;
   font-weight: bold;
- }
-
- .div-btn{
-   justify-content: center;
-   display: flex;
-   gap: 24px;
 }
-.input-btn{
+
+.div-btn {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+}
+
+.input-btn {
   text-align: center;
   margin-top: 24px;
 }
-.style-btn{
+
+.style-btn {
   padding: 24px 445px;
   font-size: 20px;
   color: rgba(14, 14, 14, 0.15);
   background-color: #ffff;
   border: none;
 }
-.style-btn:hover{
+
+.style-btn:hover {
   background-color: rgba(198, 228, 214, 1);
 }
-.done-btn{
+
+.done-btn {
   text-align: center;
   margin-top: 24px;
 }
- footer{
+
+/* newslatter */
+.newslatter {
+  background-color: rgba(198, 228, 214, 1);
+  padding: 80px 100px;
+  border-radius: 24px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.news-form {
+  display: flex;
+  justify-content: center;
+}
+
+.email {
+  background-color: #fff;
+  padding: 18px 220px;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+}
+
+.btn-sub {
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
+
+.sub-div {
+  line-height: 24px;
+  text-align: center;
+}
+
+footer {
   color: #0E0E0E;
   font-size: 32px;
   font-weight: bold;
