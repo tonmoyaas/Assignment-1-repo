@@ -276,10 +276,13 @@ body{
 }
 
 /* donate styles  */
-.donate{
-  text-align: center;
+.donate-sec{
   padding-left: 88px;
   padding-right: 88px;
+}
+.donate{
+  text-align: center;
+  
 }
  .btn-a{
   background-color: #fff;
@@ -289,6 +292,9 @@ body{
   color: rgba(14, 14, 14, 0.8);
   font-size: 40px;
   font-weight: bold;
+ }
+ .btn-a:hover{
+  background-color:rgba(198, 228, 214, 1)
  }
  .btn-b{
   background-color: rgba(198, 228, 214, 1);
@@ -304,7 +310,25 @@ body{
    justify-content: center;
    display: flex;
    gap: 24px;
- }
+}
+.input-btn{
+  text-align: center;
+  margin-top: 24px;
+}
+.style-btn{
+  padding: 24px 445px;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.15);
+  background-color: #ffff;
+  border: none;
+}
+.style-btn:hover{
+  background-color: rgba(198, 228, 214, 1);
+}
+.done-btn{
+  text-align: center;
+  margin-top: 24px;
+}
  footer{
   color: #0E0E0E;
   font-size: 32px;
