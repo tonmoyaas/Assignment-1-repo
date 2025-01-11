@@ -111,7 +111,8 @@ body{
     background-color: #F1F1F3;
     margin-left: 160px;
     margin-right: 160px;
-    margin-top: 56px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 
 }
 
@@ -274,3 +275,41 @@ body{
   color: white;
 }
 
+/* donate styles  */
+.donate{
+  text-align: center;
+  padding-left: 88px;
+  padding-right: 88px;
+}
+ .btn-a{
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  border: none;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: bold;
+ }
+ .btn-b{
+  background-color: rgba(198, 228, 214, 1);
+  padding: 40px;
+  border-radius: 16px;
+  border: none;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: bold;
+ }
+
+ .div-btn{
+   justify-content: center;
+   display: flex;
+   gap: 24px;
+ }
+ footer{
+  color: #0E0E0E;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 80px;
+  
+}
